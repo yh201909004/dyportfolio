@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang=ko dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>dy's portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <!--모바일로 이동하는 스크립트 시작-->
+    <script type="text/javascript"> var UserAgent = navigator.userAgent; if (UserAgent.match(/iPhone|ipad|Android|Windows CE|BlackBerry|Symbian|Windows Phone|webOS|Opera Mini|Opera Mobi|POLARIS|IEMobile|lgtelecom|nokia|SonyEricsson/i) != null || UserAgent.match(/LG|SAMSUNG|Samsung/) != null) { location.href = "m_index.html"; }
+    </script>
+    <!--모바일로 이동하는 스크립트 끝-->
+
+  </head>
+
+  <body>
+      <div id="wrap">
+    <header>
+      <!--로고-->
+        <div class="logo"><a onclick="fnMove('5')"><img src="img/logo.png" alt="logo"></a></div>
+    </header>
+
+    <!--메뉴-->
+    <nav>
+      <div class="menu">
+        <ul>
+          <li class="menu_form"><a onclick="fnMove('1')">Package</a></li>
+          <li class="menu_form"><a onclick="fnMove('2')">BI</a></li>
+          <li class="menu_form"><a onclick="fnMove('3')">Editorial design</a></li>
+          <li class="menu_form"><a onclick="fnMove('4')">Web design</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--키비주얼-->
+    <section>
+      <div class="keyvisual">
+        <div class="kv_1"> <a href="index.html"></a>
+          <div class="kv_in" data-aos="zoom-in" data-aos-duration="1500"><img src="img/main_in.png"> </div>
+         </div>
+      </div>
+    </section>
+
+    <!--프로필-->
+    <div class="profile">
+
+      <div class="profile1" data-aos="fade-up"><img src="img/10.png"></div>
+
+      <div class="profile2" data-aos="fade-up"><img src="img/11.png"></div>
+
+      <div class="profile3" data-aos="fade-up"><img src="img/12.png"></div>
+
+    </div>
+
+    <!--포트폴리오-->
+    <div class="box0"><img src="img/1.png"></div>
+
+    <div class="box1" id="anchor1"> <!--패키지디자인-->
+      <div class="box1_1" data-aos="fade-left" data-aos-duration="1500"><img src="img/13.png"></div>
+    </div>
+
+    <div class="box2"> <!--패키지디자인-->
+      <div class="box2_1" data-aos="fade-left" data-aos-duration="1500"><img src="img/14.png"></div>
+    </div>
+
+    <div class="box3" id="anchor2"> <!--브랜드 아이덴티티-->
+      <div class="box3_1" data-aos="fade-left" data-aos-duration="1500"><img src="img/15.png"></div>
+    </div>
+
+    <div class="box4" id="anchor3"> <!--편집디자인-->
+      <div class="box4_1" data-aos="fade-left" data-aos-duration="1500"><img src="img/16.png"></div>
+    </div>
+
+    <div class="box5"> <!--편집디자인-->
+      <div class="box5_1" data-aos="fade-left" data-aos-duration="1500"><img src="img/17.png"></div>
+    </div>
+
+    <div class="box6"> <!--편집디자인-->
+      <div class="box6_1" data-aos="fade-left" data-aos-duration="1500"><img src="img/18.png"></div>
+    </div>
+
+    <div class="box7" id="anchor4"> <!--웹디자인-->
+      <div class="box7_1" data-aos="fade-left" data-aos-duration="1500"><img src="img/19.png"></div>
+    </div>
+
+    <div class="box8"> <!--웹디자인-->
+      <div class="box8_1" data-aos="fade-left" data-aos-duration="1500"><img src="img/20.png"></div>
+    </div>
+
+    <!--푸터-->
+    <footer>
+    <div class="footer">
+      <div class="footer_1"><a><p>Copyright 2020 Dayeon Kim. All right reserved<br>
+kdy7056@naver.com</p></a></div>
+      <div class="footer_2"><img src="img/logo_f.png"></div>
+    </footer>
+  </div>
+
+  <!--스크롤 스크립트-->
+  <script type="text/javascript" src="js/jquery-latest.js"></script>
+  <script>
+    function fnMove(seq){
+      var offset = $("#anchor" + seq).offset();
+      $('html,body').animate({scrollTop : offset.top}, 1200);
+    }
+  </script>
+
+  <!--AOS 스크립트-->
+  <script type="text/javascript" src="js/aos.js"></script>
+  <script>
+    AOS.init({
+      easing: 'ease-in-out-sine'
+    });
+  </script>
+
+</body>
+</html>

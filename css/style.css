@@ -1,0 +1,60 @@
+*{margin: 0;}
+html {font-size: 10px;}
+body {font-size: 1rem;}
+html, body {width: 100%}
+
+#wrap {width: 1920px; margin:0 auto;}
+
+a {text-decoration: none;}
+
+header {background-color: #ffffff; width: 100%; text-align: center; margin-top: 40px;}
+nav {height: 60px;}
+
+.menu {text-align: center;}
+.menu .menu_form {display: inline-block; margin: 20px 70px 40px 70px; text-align: center; font-family: 'Noto Sans KR', sans-serif; font-size: 15px; font-weight: 500; color: #666666;}
+
+.menu .menu_form a:link{text-decoration: none;color: #666666;}
+.menu .menu_form a:visited{text-decoration: none;color: #666666;}
+.menu .menu_form a:active{text-decoration: none;color: #666666;}
+.menu .menu_form a:hover{text-decoration: none;color: #47266e;}
+
+.kv_1 {background-image: url('../img/main.png'); height: 500px; text-align: center; margin: auto;}
+.kv_1 .kv_in{display: inline-block; margin-top: 81px;}
+
+.profile {width: 903px; height: 1881px; margin-left: 509px;}
+
+.profile1 {height: 218px; margin-top: 92px;}
+
+.profile2 {height: 652px; margin-top: 71px;}
+
+.profile3 {height: 755px; margin-top: 71px;}
+
+.box1 {height: 800px; background-image: url('../img/2.png');}
+.box1_1 {display: inline-block; margin-top: 170px; margin-left: 800px;}
+
+.box2 {height: 740px; background-image: url('../img/3.png');}
+.box2_1 {display: inline-block; margin-top: 300px; margin-left: 500px;}
+
+.box3 {height: 628px; background-image: url('../img/4.png');}
+.box3_1 {display: inline-block; margin-top: 220px; margin-left: 720px;}
+
+.box4 {height: 628px; background-image: url('../img/5.png');}
+.box4_1 {display: inline-block; margin-top: 135px; margin-left: 850px;}
+
+.box5 {height: 628px; background-image: url('../img/6.png');}
+.box5_1 {display: inline-block; margin-top: 160px; margin-left: 900px;}
+
+.box6 {height: 750px; background-image: url('../img/7.png');}
+.box6_1 {display: inline-block; margin-top: 170px; margin-left: 800px;}
+
+.box7 {height: 654px; background-image: url('../img/8.png');}
+.box7_1 {display: inline-block; margin-top: 180px; margin-left: 800px;}
+
+.box8 {height: 654px; background-image: url('../img/9.png');}
+.box8_1 {display: inline-block; margin-top: 180px; margin-left: 800px;}
+
+footer {display: inline-block; height: 80px; background-color: #666666; width: 100%}
+
+.footer .footer_1 {float: right;}
+.footer .footer_1 p {margin-top: 20px; display: inline-block; margin-right: 500px; color: #ffffff; font-family: 'Noto Sans KR', sans-serif; font-size: 12px; font-weight: 200;}
+.footer .footer_2 {float: left; margin-top: 15px; margin-left: 500px; display: inline-block;}
